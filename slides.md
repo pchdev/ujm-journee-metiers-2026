@@ -86,9 +86,9 @@ transition: fade-out
 
 <v-clicks>
 
-- **Licence** *Médiation Culturelle & Communication* 
-  - ICT Toulouse, 2010
-- **Master** *Expertise des Professions et Institutions de la Culture* 
+- **Licence Médiation Culturelle & Communication**
+  - *ICT Toulouse, 2010*
+- **Master Expertise des Professions et Institutions de la Culture**
   - Université de Nantes, 2011-2012
 
 </v-clicks>
@@ -120,14 +120,16 @@ transition: fade-out
 <br>
 
 - Entrée sur dossier, entretien (L. Pottier, Y. Orlarey)
-- Etudiants avec parcours très variés
-- Programme aussi dense qu'intéressant:
+- Etudiants avec **parcours très variés**
+- Programme très complet, et très dense : 
   - Techniques/ingénierie du son
   - Langages de programmation (Faust, Max, Csound, C, Lisp, ...)
   - Composition, formation musicale
   - Ethnomusicologie, histoire de la musique 
   - *etc.*
 - Projets personnels
+
+<!-- Ajouter autres slides avec screenshots de projets faits pendant le master -->
 
 <style>
   ul li {
@@ -146,7 +148,7 @@ transition: fade-out
 <v-clicks>
 
 ## **Décembre-Janvier 2014 - APO33 (Nantes)**
-- Réalisation d'une interface Qt (C++) pour logiciel de streaming open-source (IceStream)
+- Réalisation d'une interface **Qt5** (*C++*) pour logiciel de streaming open-source (*IceStream*)
 
 </v-clicks>
 
@@ -160,11 +162,7 @@ transition: fade-out
 
 </v-clicks>
 
-<style>
-  ul li {
-    font-size: 22px
-  }
-</style>
+<style> ul li {font-size: 22px} </style>
 
 ---
 transition: fade-out
@@ -178,64 +176,81 @@ transition: fade-out
 
 <br>
 
-  - Studio octophonique (8x Genelec 1030 + 2x1037)
-  - Devenu dôme 3D en 2017 (18 Genelec 8030 6'5)
-  - Salle de conférence, studio concert 'Hémicyclia' 
-    - Acousmonium 'modulaire', 20+ HP
-  - Pilotage Pro Tools (avec contrôleur dédié)
-- Gestion et maintenance du parc informatique (macOS)
+<v-clicks>
 
-<style>
-  ul li {
-    font-size: 24px
-  }
-</style>
+- **Studio octophonique** (8x Genelec 1030 + 2x Genelec 1037)
+- Devenu '**Dôme 3D**' en 2017 (18 Genelec 8030 6'5)
+- Salle de conférence, studio concert '**Hémicyclia**' 
+  - **Acousmonium** 'modulaire', 20+ HP
+- Pilotage **Pro Tools** (avec contrôleur dédié)
+- Gestion et maintenance du parc informatique (*macOS*)
+
+</v-clicks>
+
+<style> ul li {font-size: 22px} </style>
+
+<!--  Ajouter screenshots studios -->
 
 ---
 transition: fade-out
 ---
 
-# Réalisateur en informatique musicale, SCRIME-LaBRI (Bordeaux, 2014-2017)
+## **Studio Elise**
 
 <br>
 
-## Développement, beta-testing du logiciel i-score (ANR OSSIA)
+<img src="/home/pierre/Repositories/presentations/ujm-journee-metiers-2026/media/studios-scrime/scrime-studio-elise-new.jpg"  width="300" height="300">
+
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+# **Réalisateur en informatique musicale, SCRIME-LaBRI (Bordeaux, 2014-2017)**
+
+<br>
+
+## **Développement, beta-testing du logiciel i-score (ANR OSSIA)**
 
 <br>
 
 - Réalisation de démos, 
 
-<style>
-  ul li {
-    font-size: 22px
-  }
-</style>
+<style> ul li {font-size: 22px} </style>
 
 ---
 transition: fade-out
 ---
 
-# Ingénieur projet Arts et Sciences, IdEx Bordeaux (2015-2016)
+# **Ingénieur projet Arts et Sciences, IdEx Bordeaux (2015-2016)**
 
-
----
-transition: fade-out
----
-
-# Réalisateur en informatique musicale (freelance, Nantes, 2017-2020)
+<style> ul li {font-size: 22px} </style>
 
 ---
 transition: fade-out
 ---
 
-# Développeur C++ (PULSALYS, GRAME, 2020-2021)
+# **Réalisateur en informatique musicale (freelance, Nantes, 2017-2020)**
 
+<style> ul li {font-size: 22px} </style>
 
 ---
 transition: fade-out
 ---
 
-# Ingénieur de recherche, Equipe Emeraude, Inria, INSA-Lyon (Villeurbanne, 2022-2027)
+# **Développeur C++ (PULSALYS, GRAME, 2020-2021)**
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+# **Ingénieur de recherche, Equipe Emeraude, Inria, INSA-Lyon (Villeurbanne, 2022-2027)**
+
+<style> ul li {font-size: 22px} </style>
 
 ---
 transition: slide-up
