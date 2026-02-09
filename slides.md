@@ -212,11 +212,14 @@ transition: fade-out
 
 <br>
 
-## **Développement, beta-testing du logiciel i-score (ANR OSSIA)**
+## **Développement, *beta-testing* du logiciel *i-score* (ANR OSSIA)**
 
 <br>
 
-- Réalisation de démos, 
+- Réalisation de démos
+- Debugging
+- Documentation, promotion
+- Développement d'outils externes
 
 <style> ul li {font-size: 22px} </style>
 
@@ -225,6 +228,9 @@ transition: fade-out
 ---
 
 # **Ingénieur projet Arts et Sciences, IdEx Bordeaux (2015-2016)**
+
+- Faire le lien entre Arts et Sciences en invitant des artistes à collaborer avec des scientifiques de l'Université de Bordeaux.
+- Gestion et suivi de projets, accompagnement sur aspects techniques, etc.
 
 <style> ul li {font-size: 22px} </style>
 
