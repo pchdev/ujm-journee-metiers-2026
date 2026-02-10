@@ -370,7 +370,7 @@ transition: fade-out
 transition: fade-out
 ---
 
-## **Routing, patch bays studio**
+## <u> **Routing, patch bays studio** </u>
 
 <br>
 
@@ -395,18 +395,12 @@ transition: fade-out
 <v-clicks>
 
 - **Concerts-lecture** avec compositeur invité (Forum de Talence) ~ *1x/mois*
-  - Concerts spatialisés (*>= octophonie*)
+  - **Concerts spatialisés** (*octophonie++*)
   - *projetés* en direct par les compositeurs eux-mêmes
 - **Concerts thématiques**
   - *Piano Day*, *Hommage à Xenakis*, *Autechre*, *Raster-Noton*, *etc.*
 - **Sorties de résidence**
-
-<br>
-
 - **Installations sonores**
-
-<br>
-
 - **Conférences** scientifiques/musique ou mixtes, workshops
   - Colloque *Chowning-Risset*
 
@@ -420,17 +414,110 @@ transition: fade-out
 transition: fade-out
 ---
 
+## **Concert *tribute* - Raster-Noton**
+
+<br>
+
+<div class="absolute left--5 top-15px">
+  <img src="./media/raster-noton-1.jpg" scale="70%" />
+</div>
+
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Concert - Christian Eloy**
+
+<br>
+
+<div class="absolute left--5 top-15px">
+  <img src="./media/spatialisation-bdx-2.png" scale="75%" />
+</div>
+
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Colloque Chowning-Risset**
+
+<br>
+
+<div class="absolute left-100 top--130px">
+  <img src="./media/affiche.chowning.risset.copie.jpg" scale="60%" />
+</div>
+
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+layout: two-cols-header
+---
+
 ## **Développement, *beta-testing* du logiciel *i-score* (ANR OSSIA)**
 
 <br>
 
-- Réalisation de démos
-- Debugging, *bug reporting*
-- Documentation, promotion
-- Développement d'outils d'intégration avec d'autres environnements ou matériel audionumériques (Faust, SuperCollider, Max, Pure Data, etc.)
+::left:: 
+
+<br>
+
+<Youtube id="8-KpNaF2K8Q?si=P4GUSANO9xTrZWfo" width=400px height=400px />
+
+::right::
+
+<br>
+
+- **Réalisation de démos**
+- **Debugging**, ***bug reporting***
+- **Documentation**, **promotion**
+- **Intégration** avec autres environnments 
+  - **Faust**
+  - **SuperCollider**
+  - **Max**
+  - **Pure Data**, etc.
+- **Développement d'add-ons**
 
 <!-- Ajouter présentation d'i-score avec screenshots, voire carrément vidéo -->
 <!-- Block de code OSSIA-SuperCollider -->
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+# **Intégration avec SuperCollider** (*OSCQuery*)
+
+<br>
+
+```js
+(
+d = OSSIA.device("ossia-collider").exposeOSCQueryServer(1234, 5678, {
+    ~freq = OSSIA.parameter(d, 'frequency', Float, [0, 20000], 440);
+     ~mul = OSSIA.parameter(d, 'mul', Float, [0, 1], 0.125);
+     ~pan = OSSIA.parameter(d, 'pan', Float, [-1, 1], 0);
+});
+)
+
+SynthDef('sinosc', {
+	Out.ar(0, Pan2.ar(SinOsc.ar(~freq.kr, 0, ~mul.kr), ~pan.kr));
+}).add;
+
+// create synth with parameters' current values
+x = Synth('sinosc', d.snapshot);
+
+// now every change in the parameters' values will be reported on the sc-server
+~freq.value = 220;
+~pan.value = 1;
+~mul.value = 0.125;
+```
 
 <style> ul li {font-size: 22px} </style>
 
@@ -442,14 +529,14 @@ transition: fade-out
 
 <br>
 
-- Expérimentations autour du logiciel *i-score* et spatialisation sonore :
+- Expérimentations autour du logiciel ***i-score*** et **spatialisation sonore** :
   - **G. Gagneré** - *L'ombre*, d'Andersen (suivi de lecture)
   - **A. Bonardi** - *Pianotronics III*
   - **D. Garnier** - *L'arbre intégral*
   - **P. Cochard** - *quarrè (v1.0)*
-- Accompagnement technique studio, acousmonium, programmation, création, sound-design, etc.
-- Accompagnement pour sorties de résidence extérieures (tournée Arbre intégral)
-- Feedback et support sur le logiciel *i-score*
+- **Accompagnement technique** studio, acousmonium, programmation, création, sound-design, etc.
+- Accompagnement pour **sorties de résidence extérieures** (tournée **Arbre intégral**)
+- **Feedback** (*live-debugging*) et support sur le logiciel *i-score*
 
 <!-- Pas toujours évident avec des logiciels en développement, sachant que le spectacle vivant est un contexte plutôt critique -->
 
@@ -461,15 +548,61 @@ transition: fade-out
 transition: fade-out
 ---
 
+## **Résidence de creation - Pascale Criton, Hugues Genevois**
+
+<br>
+
+<div class="absolute left--5 top-15px">
+  <img src="./media/studios-scrime/hemicyclia-criton.jpg" scale="70%" />
+</div>
+
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Résidence de creation - *L'Arbre intégral***
+
+<br>
+
+<div class="absolute left--5 top-15px">
+  <img src="./media/arbre-integral/arbre-integral-ambares-2.png" scale="70%" />
+</div>
+
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Résidence de creation - *L'Arbre intégral***
+
+<br>
+
+<div class="absolute left--5 top-15px">
+  <img src="./media/arbre-integral/arbre-integral-ambares-3.png" scale="70%" />
+</div>
+
+<!-- Ajouter vidéo du déroulé ? -->
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
 ## Activités universitaires, académiques (recherche, formation)
 
 <br>
 
-- Ateliers pour scolaires (Semaine du Son)
-- Intervention des compositeurs dans les écoles/collèges/lycées
-- Ateliers avec les étudiants de l'Université (Ableton Live)
-- Workshops avec les élèves du Conservatoire (électroacoustique)
-- Encadrement régulier de stagiaires
+- **Ateliers pour scolaires** (**Semaine du Son**)
+- Intervention des **compositeurs dans les écoles/collèges/lycées**
+- Ateliers avec les **étudiants de l'Université** (Ableton Live)
+- Workshops avec les **élèves du Conservatoire** (électroacoustique)
+- Encadrement régulier de **stagiaires**
 
 <br>
 
@@ -484,19 +617,13 @@ transition: fade-out
 
 # **Ingénieur projet Arts et Sciences, IdEx Bordeaux (2015-2016)**
 
-- Faire le lien entre Arts et Sciences en invitant des artistes à collaborer avec des scientifiques de l'Université de Bordeaux.
+- Faire le lien entre Arts et Sciences, collaboration entre artistes et scientifiques de l'Université de Bordeaux.
+  - Physique des matériaux (nano-matériaux)
+  - Optique (laser)
+  - Biologie (sonification mouvement de micro-organismes)
+  - ...
 - Gestion et suivi de projets, accompagnement sur aspects techniques, etc.
-
-<!-- <SlidevVideo v-click autoplay controls> -->
-  <!-- Anything that can go in an HTML video element. -->
-  <!-- <source src="/myMovie.mp4" type="video/mp4" /> -->
-  <!-- <source src="/myMovie.webm" type="video/webm" /> -->
-  <!-- <p>
-    Your browser does not support videos. You may download it
-    <a href="/myMovie.mp4">here</a>.
-  </p>
-</SlidevVideo> -->
-
+- Création du **festival Arts & Sciences FACTS**
 
 <style> ul li {font-size: 22px} </style>
 
