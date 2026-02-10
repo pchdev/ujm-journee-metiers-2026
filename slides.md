@@ -22,8 +22,6 @@ transition: slide-left
 mdc: true
 # duration of the presentation
 duration: 35min
-addons:
-  - slidev-component-zoom
 ---
 
 # Journée des métiers
@@ -55,12 +53,15 @@ transition: fade-out
 
 # Sommaire
 
+<!-- <style> ul li {font-size: 30px} </style> -->
+
 <!--
 You can have `style` tag in markdown to override the style for the current page.
 Learn more: https://sli.dev/features/slide-scope-style
 -->
 
-<Toc text-sm minDepth="1" maxDepth="2" />
+<Toc text-sm minDepth="1" maxDepth="1" />
+
 
 <style>
 h1 {
@@ -107,11 +108,7 @@ transition: fade-out
 
 </v-clicks>
 
-<style>
-  ul li {
-    font-size: 22px
-  }
-</style>
+<style> ul li {font-size: 22px} </style>
 
 ---
 transition: fade-out
@@ -123,21 +120,108 @@ transition: fade-out
 
 - Entrée sur dossier, entretien (L. Pottier, Y. Orlarey)
 - Etudiants avec **parcours très variés**
-- Programme très complet, et très dense : 
-  - Techniques/ingénierie du son
-  - Langages de programmation (Faust, Max, Csound, C, Lisp, ...)
-  - Composition, formation musicale
-  - Ethnomusicologie, histoire de la musique 
+- Programme **très complet** (et très dense) : 
+  - **Techniques/ingénierie du son**
+  - **Langages de programmation** (Faust, Max, Csound, C, Lisp, ...)
+  - **Composition, formation musicale**
+  - **Ethnomusicologie, histoire de la musique** 
   - *etc.*
-- Projets personnels
+- **Projets personnels**
+- **Stages**
 
 <!-- Ajouter autres slides avec screenshots de projets faits pendant le master -->
 
+<style> ul li {font-size: 21px} </style>
+
+---
+transition: fade-out
+layout: image
+image: media/master-rim/la-marche-des-anges.png
+backgroundSize: 75%
+---
+
+---
+transition: fade-out
+layout: image
+image: media/master-rim/selvanscapes.png
+backgroundSize: 75%
+---
+
+---
+transition: fade-out
+layout: two-cols-header
+# image: 
+# backgroundSize: 90%
+---
+
+<!-- ![](./media/master-rim/organisation-synthese.jpg) -->
+<!-- <div class="absolute left-10px "> -->
+
+# Hello
+
+::left::
+
+<div class="absolute left--260px top--100px">
+<img src="./media/master-rim/selvanscapes.png" scale="45%" />
+</div>
+
+::right::
+
+<div class="absolute right--360px top--570px">
+<img src="./media/master-rim/organisation-synthese.jpg" scale="40%" />
+</div>
+
 <style>
-  ul li {
-    font-size: 22px
-  }
+.two-cols-header {
+  column-gap: 10px; /* Adjust the gap size as needed */
+}
 </style>
+
+<!-- </div> -->
+
+---
+transition: fade-out
+layout: image
+image: media/master-rim/selvanScapes-chronologie-projet.jpg
+backgroundSize: 75%
+---
+
+---
+transition: fade-out
+layout: image-right
+image: media/master-rim/birds.png
+backgroundSize: 75%
+---
+
+## **Projet Faust, 'birds'**
+
+<br>
+
+```js
+/*:
+- Bird singing generator.
+- Head = Reverberation, birds heard from far away.
+- Bottom = Maximum proximity of the birds.
+- Right = maximum speed of whistles.
+- Left = minimum speed, birds rarely heard.
+*/
+
+process = hgroup("Birds", 
+    mainOsc(
+        noteTrig 
+      : rdm(72,94) 
+      : mtof, noteTrig) 
+      * envWrapper(noteTrig, ampEnv, amp_xp(2510)) 
+      : fi.lowpass(1, 2000) *(0.8) 
+      <: _,_, (rdmPanner : panSte) 
+      : panConnect 
+      : *,* 
+      : reverb
+);
+
+// ...
+```
+
 
 ---
 transition: fade-out
@@ -150,7 +234,10 @@ transition: fade-out
 <v-clicks>
 
 ## **Décembre-Janvier 2014 - APO33 (Nantes)**
-- Réalisation d'une interface **Qt5** (*C++*) pour logiciel de streaming open-source (*IceStream*)
+
+ <br>
+
+> -  Réalisation d'une interface **Qt5** (*C++*) pour logiciel de streaming open-source (*IceStream*)
 
 </v-clicks>
 
@@ -159,8 +246,11 @@ transition: fade-out
 <v-clicks>
 
 ## **Mai-Août 2014 - SCRIME-LaBRI (Bordeaux)**
-- Assistant RIM (J. Larralde)
-- Embauche dès la fin du stage \o/
+
+<br>
+
+> - **Assistant RIM** (J. Larralde)
+> - **Embauche dès la fin du stage** \o/
 
 </v-clicks>
 
