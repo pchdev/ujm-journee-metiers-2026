@@ -679,16 +679,19 @@ transition: fade-out
 transition: fade-out
 ---
 
-# **Réalisateur en informatique musicale (freelance, Nantes, 2017-2020)**
+# **Réalisateur en informatique musicale**
+### **Freelance, Nantes, 2017-2020**
+
+<br>
 
 <v-clicks>
 
 - projet ***quarrè***, installation sonore immersive et interactive
-  - soutenu par le **SCRIME**, le **CRNA** (*Cultures Connectées*)
+  - soutenu par le **SCRIME**, le **CRNA** (*La Fabrique - Cultures Connectées*)
   - scénario conçu avec **OSSIA score**
   - **~ 1 an d'écriture/programmation**
   - **Restitutions multiples**
-    - **Première SCRIME** (21 juin 2018) + version 3D 2019 (annulée)
+    - **Première Les Campulsations** (22-27 juin 2018) + <strike>version 3D 2019</strike> (annulée)
     - Médiathèque **Angoulême** (2018)
     - Festival Electroacoustique **Poitiers** (2018)
     - Journées d'informatiques musicales - **Bayonne** (2019)
@@ -696,7 +699,53 @@ transition: fade-out
 
 </v-clicks>
 
-<style> ul li {font-size: 21px} </style>
+<style> ul li {font-size: 20px} </style>
+
+---
+transition: fade-out
+---
+
+## **Vues serveur/client** de l'installation 
+
+<div class="absolute left--50 top--325px">
+  <img src="./media/screens/quarre-new.png" scale="30%" />
+</div>
+
+<div class="absolute left-55 top-95px">
+  <img src="./media/screens/screen-quarre-max.png" scale="85%" />
+</div>
+
+<!-- Ajouter vidéo du déroulé ? -->
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Vue écriture scénario** (OSSIA score)
+
+<div class="absolute left--5 top-5px">
+  <img src="./media/screens/screen-score-5.png" scale="65%" />
+</div>
+
+<!-- Ajouter vidéo du déroulé ? -->
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## Première - Les Campulsations (Talence, 22-27 juin 2018)
+
+<div class="absolute left--5 top-35px">
+  <img src="./media/quarre/20160926_101602.jpg" scale="70%" />
+</div>
+
+<!-- Ajouter vidéo du déroulé ? -->
+
+<style> ul li {font-size: 22px} </style>
 
 ---
 transition: fade-out
