@@ -22,6 +22,7 @@ transition: slide-left
 mdc: true
 # duration of the presentation
 duration: 35min
+lineNumbers: true
 ---
 
 # Journée des métiers
@@ -142,9 +143,12 @@ transition: fade-out
 
 # **Projet *La marche des anges***
 
-<div class="absolute left--5 top-15px">
-<img src="./media/master-rim/la-marche-des-anges.png" scale="65%" />
+<div class="absolute left--10 top-35px">
+<img src="./media/master-rim/la-marche-des-anges.png" scale="75%" />
 </div>
+
+<!-- Faire démo vidéo s'il reste du temps -->
+
 
 ---
 transition: fade-out
@@ -175,10 +179,14 @@ layout: two-cols-header
 
 ---
 transition: fade-out
-layout: image
-image: media/master-rim/selvanScapes-chronologie-projet.jpg
-backgroundSize: 85%
+# layout: image
+# image: media/master-rim/selvanScapes-chronologie-projet.jpg
+# backgroundSize: 85%
 ---
+
+<div class="absolute left--5 top-15px">
+  <img src="./media/master-rim/selvanScapes-chronologie-projet.jpg" scale="85%" />
+</div>
 
 ---
 transition: fade-out
@@ -266,8 +274,8 @@ transition: fade-out
 <v-clicks>
 
 - **Studio octophonique** (8x Genelec 1030 + 2x Genelec 1037)
-- Devenu '**Dôme 3D**' en 2017 (18 Genelec 8030 6'5)
-- Salle de conférence, studio concert '**Hémicyclia**' 
+- Devenu ***Dôme 3D*** en 2017 (18 Genelec 8030 6'5)
+- Salle de conférence, studio concert ***Hémicyclia***
   - **Acousmonium** modulaire (24 HP)
 - Pilotage **Pro Tools** (avec contrôleur dédié)
 - Gestion et maintenance du parc informatique (*macOS*)
@@ -286,8 +294,8 @@ transition: fade-out
 
 <br>
 
-<div class="absolute left--5 top-15px">
-  <img src="./media/studios-scrime/studio-octo.jpg" scale="65%" />
+<div class="absolute left--5 top-25px">
+  <img src="./media/studios-scrime/studio-octo.jpg" scale="75%" />
 </div>
 
 
@@ -301,7 +309,7 @@ transition: fade-out
 
 <br>
 
-<div class="absolute left--5 top-15px">
+<div class="absolute left--5 top-25px">
   <img src="./media/quarre/hemicyclia.jpg" scale="75%" />
 </div>
 
@@ -333,7 +341,7 @@ transition: fade-out
 
 <br>
 
-<div class="absolute left--5 top-15px">
+<div class="absolute left--5 top-25px">
   <img src="./media/studios-scrime/scrime-dome.png" scale="75%" />
 </div>
 
@@ -346,12 +354,12 @@ transition: fade-out
 
 <br>
 
-## **Opérateur studio, maintenance des équipements**
+> ## **Opérateur studio, maintenance des équipements**
 
 <br>
 
 - Former les utilisateurs au **fonctionnement opérationnel** des différents studios
-  - **Câblage**, **sécurité**, ...
+  - **Câblage**, **sécurité**...
   - **Prêt de matériel** pour prises de son ou évènements
   - **Bancs de montage audionumériques** (Pro Tools, Reaper, Ableton Live)
     - **Plugins de spatialisation**
@@ -370,7 +378,7 @@ transition: fade-out
 transition: fade-out
 ---
 
-## <u> **Routing, patch bays studio** </u>
+## <u> **Routing, patch-bays studio** </u>
 
 <br>
 
@@ -404,8 +412,6 @@ transition: fade-out
 - **Conférences** scientifiques/musique ou mixtes, workshops
   - Colloque *Chowning-Risset*
 
-<br>
-
 </v-clicks>
 
 <style> ul li {font-size: 22px} </style>
@@ -414,12 +420,12 @@ transition: fade-out
 transition: fade-out
 ---
 
-## **Concert *tribute* - Raster-Noton**
+## **Concert *tribute* - Raster-Noton** (Talence, 2016)
 
 <br>
 
-<div class="absolute left--5 top-15px">
-  <img src="./media/raster-noton-1.jpg" scale="70%" />
+<div class="absolute left--5 top-25px">
+  <img src="./media/raster-noton-1.jpg" scale="75%" />
 </div>
 
 
@@ -429,11 +435,11 @@ transition: fade-out
 transition: fade-out
 ---
 
-## **Concert - Christian Eloy**
+## **Concert - Christian Eloy** (Halle des Chartrons - Bordeaux, 2017)
 
 <br>
 
-<div class="absolute left--5 top-15px">
+<div class="absolute left--5 top-25px">
   <img src="./media/spatialisation-bdx-2.png" scale="75%" />
 </div>
 
@@ -444,7 +450,10 @@ transition: fade-out
 transition: fade-out
 ---
 
+<br><br><br><br><br>
+
 ## **Colloque Chowning-Risset**
+## (ENSEIRB-MATMECA, 2014)
 
 <br>
 
@@ -525,7 +534,7 @@ x = Synth('sinosc', d.snapshot);
 transition: fade-out
 ---
 
-## **Accompagnement d'artistes en résidence de création**
+> ## **Accompagnement d'artistes en résidence de création**
 
 <br>
 
@@ -563,7 +572,7 @@ transition: fade-out
 transition: fade-out
 ---
 
-## **Résidence de creation - *L'Arbre intégral***
+## **Résidence de creation - *L'Arbre intégral*** (Ambarès, 2017)
 
 <br>
 
@@ -578,12 +587,26 @@ transition: fade-out
 transition: fade-out
 ---
 
-## **Résidence de creation - *L'Arbre intégral***
+## **Résidence de creation - *L'Arbre intégral*** (Ambarès, 2017)
 
 <br>
 
 <div class="absolute left--5 top-15px">
   <img src="./media/arbre-integral/arbre-integral-ambares-3.png" scale="70%" />
+</div>
+
+<!-- Ajouter vidéo du déroulé ? -->
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Résidence de creation - *quarrè*** (Talence, 2016-2017)
+
+<div class="absolute left--5 top-55px">
+  <img src="./media/quarre/quarre.jpg" scale="70%" />
 </div>
 
 <!-- Ajouter vidéo du déroulé ? -->
@@ -606,8 +629,7 @@ transition: fade-out
 
 <br>
 
-- Activités de recherche, écriture d'articles scientifiques
-
+- **Activités de recherche, écriture d'articles scientifiques**
 
 <style> ul li {font-size: 22px} </style>
 
@@ -615,15 +637,41 @@ transition: fade-out
 transition: fade-out
 ---
 
-# **Ingénieur projet Arts et Sciences, IdEx Bordeaux (2015-2016)**
+> #### *Confronter les musiciens à leurs performances : description d'un dispositif méthodologique pour étudier l'interprétation acousmatique* - Féron, F-X., Boutard, G., Cochard, P.
 
-- Faire le lien entre Arts et Sciences, collaboration entre artistes et scientifiques de l'Université de Bordeaux.
-  - Physique des matériaux (nano-matériaux)
-  - Optique (laser)
-  - Biologie (sonification mouvement de micro-organismes)
-  - ...
-- Gestion et suivi de projets, accompagnement sur aspects techniques, etc.
+<div class="absolute left--5 top-55px">
+  <img src="./media/nicouleau-malec.png" scale="70%" />
+</div>
+
+<!-- Ajouter vidéo du déroulé ? -->
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+# **Ingénieur projet Arts et Sciences,** 
+# **IdEx Bordeaux (2015-2016)**
+
+<br> 
+
+- Faire le **lien entre Arts et Sciences**
+- Collaboration entre **artistes et scientifiques** de l'Université de Bordeaux.
+  - **Physique des matériaux** (nano-matériaux)
+  - **Optique** (laser)
+  - **Biologie** (sonification mouvement de micro-organismes)
+  - *etc.*
+- **Gestion et suivi de projets**, accompagnement sur **aspects techniques**, etc.
 - Création du **festival Arts & Sciences FACTS**
+
+<div class="absolute right-37 top--50px">
+  <img src="./media/IDEX-1.png" scale="70%" />
+</div>
+
+<div class="absolute right--55 top--320px">
+  <img src="./media/facts.png" scale="20%" />
+</div>
 
 <style> ul li {font-size: 22px} </style>
 
@@ -633,13 +681,22 @@ transition: fade-out
 
 # **Réalisateur en informatique musicale (freelance, Nantes, 2017-2020)**
 
-- projet *quarrè*, installation sonore immersive et interactive
-  - soutenu par le SCRIME, le CRNA (Cultures Connectées)
-  - utilisation d'OSSIA score
-  - 1 an d'écriture/programmation
-  - Restitutions multiples
+<v-clicks>
 
-<style> ul li {font-size: 22px} </style>
+- projet ***quarrè***, installation sonore immersive et interactive
+  - soutenu par le **SCRIME**, le **CRNA** (*Cultures Connectées*)
+  - scénario conçu avec **OSSIA score**
+  - **~ 1 an d'écriture/programmation**
+  - **Restitutions multiples**
+    - **Première SCRIME** (21 juin 2018) + version 3D 2019 (annulée)
+    - Médiathèque **Angoulême** (2018)
+    - Festival Electroacoustique **Poitiers** (2018)
+    - Journées d'informatiques musicales - **Bayonne** (2019)
+    - Solutions Ouvertes pour la Sciences - **LAAS Toulouse** (2019)
+
+</v-clicks>
+
+<style> ul li {font-size: 21px} </style>
 
 ---
 transition: fade-out
