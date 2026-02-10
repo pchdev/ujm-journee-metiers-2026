@@ -754,7 +754,11 @@ transition: fade-out
 
 ## **Video**
 
-TODO!
+<SlidevVideo v-click autoplay controls scale="75%">
+  <!-- Anything that can go in an HTML video element. -->
+  <source src="./media/quarre/montage.mp4" type="video/mp4"/>
+  
+</SlidevVideo>
 
 <style> ul li {font-size: 22px} </style>
 
