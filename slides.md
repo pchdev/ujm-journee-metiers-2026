@@ -135,45 +135,39 @@ transition: fade-out
 
 ---
 transition: fade-out
-layout: image
-image: media/master-rim/la-marche-des-anges.png
-backgroundSize: 75%
+# layout: image
+# image: media/master-rim/la-marche-des-anges.png
+# backgroundSize: 75%
 ---
 
----
-transition: fade-out
-layout: image
-image: media/master-rim/selvanscapes.png
-backgroundSize: 75%
----
+# **Projet *La marche des anges***
+
+<div class="absolute left--5 top-15px">
+<img src="./media/master-rim/la-marche-des-anges.png" scale="65%" />
+</div>
 
 ---
 transition: fade-out
 layout: two-cols-header
-# image: 
-# backgroundSize: 90%
 ---
 
-<!-- ![](./media/master-rim/organisation-synthese.jpg) -->
-<!-- <div class="absolute left-10px "> -->
-
-# Hello
+# **Projet de fin d'année**
 
 ::left::
 
-<div class="absolute left--260px top--100px">
+<div class="absolute left--280px top--80px">
 <img src="./media/master-rim/selvanscapes.png" scale="45%" />
 </div>
 
 ::right::
 
-<div class="absolute right--360px top--570px">
-<img src="./media/master-rim/organisation-synthese.jpg" scale="40%" />
+<div class="absolute right--260px top--50px">
+<img src="./media/master-rim/selvanscapes-synth.png" scale="45%" />
 </div>
 
 <style>
 .two-cols-header {
-  column-gap: 10px; /* Adjust the gap size as needed */
+  column-gap:20px; /* Adjust the gap size as needed */
 }
 </style>
 
@@ -183,7 +177,7 @@ layout: two-cols-header
 transition: fade-out
 layout: image
 image: media/master-rim/selvanScapes-chronologie-projet.jpg
-backgroundSize: 75%
+backgroundSize: 85%
 ---
 
 ---
@@ -193,7 +187,7 @@ image: media/master-rim/birds.png
 backgroundSize: 75%
 ---
 
-## **Projet Faust, 'birds'**
+## **Projet Faust : '*birds*'**
 
 <br>
 
@@ -260,11 +254,12 @@ transition: fade-out
 transition: fade-out
 ---
 
-# **Réalisateur en informatique musicale, SCRIME-LaBRI (Bordeaux, 2014-2017)**
+# **Réalisateur en informatique musicale**, 
+# **SCRIME-LaBRI (Bordeaux, 2014-2017)**
 
 <br>
 
-## **Opérateur studio, maintenance des équipements**
+> ## **Opérateur studio, maintenance des équipements**
 
 <br>
 
@@ -291,7 +286,9 @@ transition: fade-out
 
 <br>
 
-<!-- <img src="/home/pierre/Repositories/presentations/ujm-journee-metiers-2026/media/studios-scrime/scrime-studio-elise-new.jpg"  width="300" height="300"> -->
+<div class="absolute left--5 top-15px">
+  <img src="./media/studios-scrime/studio-octo.jpg" scale="65%" />
+</div>
 
 
 <style> ul li {font-size: 22px} </style>
@@ -304,7 +301,9 @@ transition: fade-out
 
 <br>
 
-<!-- <img src="/home/pierre/Repositories/presentations/ujm-journee-metiers-2026/media/studios-scrime/scrime-studio-elise-new.jpg"  width="300" height="300"> -->
+<div class="absolute left--5 top-15px">
+  <img src="./media/quarre/hemicyclia.jpg" scale="75%" />
+</div>
 
 
 <style> ul li {font-size: 22px} </style>
@@ -313,22 +312,76 @@ transition: fade-out
 transition: fade-out
 ---
 
+## **Salle *Hémicyclia***
+
+<br>
+
+<div class="absolute left--5 top--35px">
+  <img src="./media/studios-scrime/hemicyclia-plan.png" scale="60%" />
+</div>
+
+
+<style> ul li {font-size: 22px} </style>
+
+
+
+---
+transition: fade-out
+---
+
+## **Dôme 3D**
+
+<br>
+
+<div class="absolute left--5 top-15px">
+  <img src="./media/studios-scrime/scrime-dome.png" scale="75%" />
+</div>
+
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+<br>
+
 ## **Opérateur studio, maintenance des équipements**
 
 <br>
 
-- Former les utilisateurs au fonctionnement opérationnel des différents studios
-  - Câblage, sécurité, ...
-  - Prêt de matériel pour prises de son 
-  - Bancs de montage audionumériques (Pro Tools, Reaper, Ableton Live)
-    - Plugins de spatialisation
+- Former les utilisateurs au **fonctionnement opérationnel** des différents studios
+  - **Câblage**, **sécurité**, ...
+  - **Prêt de matériel** pour prises de son ou évènements
+  - **Bancs de montage audionumériques** (Pro Tools, Reaper, Ableton Live)
+    - **Plugins de spatialisation**
 
 <br>
 
-- Adapter les moyens techniques aux besoins des compositeurs
+- **Adapter les moyens techniques aux besoins des compositeurs**
   - Disposition des haut-parleurs (Acousmonium *Hémicyclia*)
+  - Algorithmes de spatialisation
 
 <!-- Schéma du patch Neutrik par ex.  -->
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Routing, patch bays studio**
+
+<br>
+
+<div class="absolute left--200px top-100px">
+  <img src="./media/studio-routing.png" scale="45%" />
+</div>
+
+<div class="absolute left-350px top--10px">
+  <img src="./media/screens/patch-neutrik.png" scale="65%" />
+</div>
+
 
 <style> ul li {font-size: 22px} </style>
 
