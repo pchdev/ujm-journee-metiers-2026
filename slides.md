@@ -143,9 +143,14 @@ transition: fade-out
 
 # **Projet *La marche des anges***
 
-<div class="absolute left--10 top-35px">
+<!-- <div class="absolute left--10 top-35px">
 <img src="./media/master-rim/la-marche-des-anges.png" scale="75%" />
-</div>
+</div> -->
+
+<SlidevVideo v-click autoplay controls>
+  <!-- Anything that can go in an HTML video element. -->
+  <source src="./media/master-rim/la-marche-des-anges.mp4" type="video/mp4" />
+</SlidevVideo>
 
 <!-- Faire démo vidéo s'il reste du temps -->
 
@@ -195,7 +200,7 @@ image: media/master-rim/birds.png
 backgroundSize: 75%
 ---
 
-## **Projet Faust : '*birds*'**
+## **Projet Faust : *birds***
 
 <br>
 
@@ -274,9 +279,9 @@ transition: fade-out
 <v-clicks>
 
 - **Studio octophonique** (8x Genelec 1030 + 2x Genelec 1037)
-- Devenu ***Dôme 3D*** en 2017 (18 Genelec 8030 6'5)
+- Devenu ***Dôme 3D*** en 2017 (18x Genelec 8030 6'5)
 - Salle de conférence, studio concert ***Hémicyclia***
-  - **Acousmonium** modulaire (24 HP)
+  - **Acousmonium** modulaire (24x HP)
 - Pilotage **Pro Tools** (avec contrôleur dédié)
 - Gestion et maintenance du parc informatique (*macOS*)
 
@@ -595,8 +600,6 @@ transition: fade-out
   <img src="./media/arbre-integral/arbre-integral-ambares-3.png" scale="70%" />
 </div>
 
-<!-- Ajouter vidéo du déroulé ? -->
-
 <style> ul li {font-size: 22px} </style>
 
 ---
@@ -609,15 +612,13 @@ transition: fade-out
   <img src="./media/quarre/quarre.jpg" scale="70%" />
 </div>
 
-<!-- Ajouter vidéo du déroulé ? -->
-
 <style> ul li {font-size: 22px} </style>
 
 ---
 transition: fade-out
 ---
 
-## Activités universitaires, académiques (recherche, formation)
+# **Activités universitaires, académiques (recherche, formation)**
 
 <br>
 
@@ -642,8 +643,6 @@ transition: fade-out
 <div class="absolute left--5 top-55px">
   <img src="./media/nicouleau-malec.png" scale="70%" />
 </div>
-
-<!-- Ajouter vidéo du déroulé ? -->
 
 <style> ul li {font-size: 22px} </style>
 
@@ -684,18 +683,22 @@ transition: fade-out
 
 <br>
 
+<div class="absolute right--165 top--385px">
+  <img src="./media/quarre/logos.png" scale="20%" />
+</div>
+
 <v-clicks>
 
 - projet ***quarrè***, installation sonore immersive et interactive
   - soutenu par le **SCRIME**, le **CRNA** (*La Fabrique - Cultures Connectées*)
   - scénario conçu avec **OSSIA score**
   - **~ 1 an d'écriture/programmation**
-  - **Restitutions multiples**
-    - **Première Les Campulsations** (22-27 juin 2018) + <strike>version 3D 2019</strike> (annulée)
-    - Médiathèque **Angoulême** (2018)
-    - Festival Electroacoustique **Poitiers** (2018)
-    - Journées d'informatiques musicales - **Bayonne** (2019)
-    - Solutions Ouvertes pour la Sciences - **LAAS Toulouse** (2019)
+- **Restitutions multiples**
+  - **Première Les Campulsations** (22-27 juin 2018) + <strike>version 3D 2019</strike> (annulée)
+  - Médiathèque **Angoulême** (2018)
+  - Festival Electroacoustique **Poitiers** (2018)
+  - Journées d'informatiques musicales - **Bayonne** (2019)
+  - Solutions Ouvertes pour la Sciences - **LAAS Toulouse** (2019)
 
 </v-clicks>
 
@@ -715,8 +718,6 @@ transition: fade-out
   <img src="./media/screens/screen-quarre-max.png" scale="85%" />
 </div>
 
-<!-- Ajouter vidéo du déroulé ? -->
-
 <style> ul li {font-size: 22px} </style>
 
 ---
@@ -725,11 +726,13 @@ transition: fade-out
 
 ## **Vue écriture scénario** (OSSIA score)
 
-<div class="absolute left--5 top-5px">
-  <img src="./media/screens/screen-score-5.png" scale="65%" />
+<div class="absolute left--85 top--80px">
+  <img src="./media/screens/screen-score-5.png" scale="45%" />
 </div>
 
-<!-- Ajouter vidéo du déroulé ? -->
+<div class="absolute right--110px top-50px">
+  <img src="./media/quarre/quarre-server-screenshot-space.png" scale="55%" />
+</div>
 
 <style> ul li {font-size: 22px} </style>
 
@@ -737,13 +740,21 @@ transition: fade-out
 transition: fade-out
 ---
 
-## Première - Les Campulsations (Talence, 22-27 juin 2018)
+## **Première - Les Campulsations** (Talence, 22-27 juin 2018)
 
 <div class="absolute left--5 top-35px">
   <img src="./media/quarre/20160926_101602.jpg" scale="70%" />
 </div>
 
-<!-- Ajouter vidéo du déroulé ? -->
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Video**
+
+TODO!
 
 <style> ul li {font-size: 22px} </style>
 
@@ -752,6 +763,13 @@ transition: fade-out
 ---
 
 # **Développeur C++ (PULSALYS, GRAME, 2020-2021)**
+
+<br>
+
+- Développement d'un traducteur "**Max-to-Faust**" en C++
+- Transfert de technologie **Université** - **SAT** - **Industrie** (**GRAME**-******)
+
+
 
 <style> ul li {font-size: 22px} </style>
 
