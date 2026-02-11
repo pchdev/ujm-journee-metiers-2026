@@ -947,17 +947,57 @@ transition: fade-out
 
 <br>
 
-- **Faust** (or **C++**) > **FPGA** (via *High Level Synthesis*)
+- **Faust** (or **C++**) > **FPGA Xilinx** (via *High Level Synthesis*)
 - **Linux embarqué** (Alpine)
+  - Contrôle **MIDI**, **OSC**, **HTTP**, etc.
+- Interface de **streaming audio ethernet** (**multicanal**)
+- Haut **potentiel multicanal** (32+)
+- Audio séparé de l'OS
+- **Très basse latence** (min. 11 us @ 768 kHz)
 
-
-
-<div class="absolute left--60 bottom--69">
+<div class="absolute right--75 bottom--5">
   <img src="./media/syfala/schema1.png" scale="25%" />
 </div>
 
-<div class="absolute left-30 bottom--72">
+<div class="absolute right--50 bottom--75">
   <img src="./media/syfala/schema-linux.png" scale="28%" />
+</div>
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## ***Barre d'espace*** - Inria Grenoble (WFS - 32 canaux)
+
+<div class="absolute left--5 top-65px">
+  <img src="./media/syfala/barre-espace-1.jpeg" scale="80%" />
+</div>
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## ***Barre d'espace*** - Inria Grenoble (WFS - 32 canaux)
+
+<div class="absolute left--5 top-65px">
+  <img src="./media/syfala/barre-espace-2.jpeg" scale="80%" />
+</div>
+
+<style> ul li {font-size: 22px} </style>
+
+
+---
+transition: fade-out
+---
+
+## ***Zybo Multisynth*** 
+
+<div class="absolute left--5 top-65px">
+  <img src="./media/syfala/minimoog-irl.jpg" scale="80%" />
 </div>
 
 <style> ul li {font-size: 22px} </style>
