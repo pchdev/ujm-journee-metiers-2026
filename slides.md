@@ -138,7 +138,7 @@ transition: fade-out
 transition: fade-out
 ---
 
-# **Projet *La marche des anges***
+## **Projet *La marche des anges***
 
 <!-- <div class="absolute left--10 top-35px">
 <img src="./media/master-rim/la-marche-des-anges.png" scale="75%" />
@@ -155,7 +155,7 @@ transition: fade-out
 layout: two-cols-header
 ---
 
-# **Projet de fin d'année**
+## **Projet de fin d'année**
 
 ::left::
 
@@ -229,7 +229,7 @@ process = hgroup("Birds",
 transition: fade-out
 ---
 
-# **Stages**
+## **Stages**
 
 <br>
 
@@ -262,8 +262,7 @@ transition: fade-out
 transition: fade-out
 ---
 
-# **Réalisateur en informatique musicale**, 
-# **SCRIME-LaBRI (Bordeaux, 2014-2017)**
+# **Réalisateur en informatique musicale**, <br> **SCRIME-LaBRI (Bordeaux, 2014-2017)**
 
 
 <div class="absolute left--90 top-385px">
@@ -284,11 +283,6 @@ transition: fade-out
 ---
 transition: fade-out
 ---
-
-# **Réalisateur en informatique musicale**, 
-# **SCRIME-LaBRI (Bordeaux, 2014-2017)**
-
-<br>
 
 > ## **Opérateur studio, maintenance des équipements**
 
@@ -420,7 +414,7 @@ transition: fade-out
 transition: fade-out
 ---
 
-## **Technicien/ingénieur son pour concerts et évènements**
+> ## **Technicien/ingénieur son pour concerts et évènements**
 <br>
 
 <v-clicks>
@@ -492,7 +486,7 @@ transition: fade-out
 layout: two-cols-header
 ---
 
-## **Développement, *beta-testing* du logiciel *i-score* (ANR OSSIA)**
+> ## **Développement, *beta-testing* du logiciel *i-score* (ANR OSSIA)**
 
 <br>
 
@@ -525,7 +519,7 @@ layout: two-cols-header
 transition: fade-out
 ---
 
-# **Intégration avec SuperCollider** (*OSCQuery*)
+## **Intégration avec SuperCollider** (*OSCQuery*)
 
 <br>
 
@@ -688,7 +682,7 @@ transition: fade-out
 transition: fade-out
 ---
 
-# **Activités universitaires, académiques (recherche, formation)**
+> ## **Activités universitaires, académiques (recherche, formation)**
 
 <br>
 
@@ -884,11 +878,86 @@ transition: fade-out
 transition: fade-out
 ---
 
-# **Ingénieur de recherche, Equipe Emeraude, Inria, INSA-Lyon (Villeurbanne, 2022-2027)**
+# **Ingénieur de recherche, Equipe Emeraude, Inria, INSA-Lyon (Villeurbanne, depuis 2022)**
+
+<br>
+
+- Equipe dirigée par Tanguy Risset
+- Collaboration étroite avec **GRAME-CNCM** (Y. Orlarey, S. Letz)
+- **Langages**, **Compilation** (**Faust**)
+- Développement **audio**, **systèmes embarqués** (**FPGA**)
+  - Traitement du signal
+  - Spatialisation (Ambisonie, Wave Field Synthesis)
+  - Interfaces de contrôle
+- Arithmétique avancée pour **opérateurs en virgule-flottante**/**virgule-fixe**
 
 <style> ul li {font-size: 22px} </style>
 
-
+---
+transition: fade-out
 ---
 
-<PoweredBySlidev mt-10/>
+## **Missions**
+
+<br>
+
+> ### 1. **Développement** et **maintenance** d'outils logiciels
+
+- **SyFaLa**, toolchain **audio** sur **plateformes FPGA**
+- **FloPoCo**, générateur d'opérateurs optimisés pour **FPGA**
+
+<br>
+
+> ### 2. **Recherche, écriture d'articles scientifiques**
+
+<br>
+
+> ### 3. **Enseignement, formation**
+- Formation, encadrement **stagiaires** et **étudiants** sur les outils et thématiques développés par l'équipe
+- Cours **Faust**, **Traitement du signal**, UJM - Masters **CCNT**(3) & **DIGICREA**(1)
+- Cours **Rust**, INSA Télécom - 5ème année
+
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Field Programmable Gate Array** (**FPGA**)
+
+<br>
+
++ Potientiel de parallélisation
++ Hardware reconfigurable
++ Très basse latence (*us*)
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **SyFaLa**: audio embarqué sur plateformes FPGA
+
+<br>
+
+- Tanguy Risset, Romain Michon, Maxime Popoff
+- https://github.com/inria-emeraude/syfala
+
+<br>
+
+- **Faust** (or **C++**) > **FPGA** (via *High Level Synthesis*)
+- **Linux embarqué** (Alpine)
+
+
+
+<div class="absolute left--60 bottom--69">
+  <img src="./media/syfala/schema1.png" scale="25%" />
+</div>
+
+<div class="absolute left-30 bottom--72">
+  <img src="./media/syfala/schema-linux.png" scale="28%" />
+</div>
+
+<style> ul li {font-size: 22px} </style>
