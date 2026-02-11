@@ -147,7 +147,7 @@ transition: fade-out
 <img src="./media/master-rim/la-marche-des-anges.png" scale="75%" />
 </div> -->
 
-<SlidevVideo v-click autoplay controls>
+<SlidevVideo autoplay controls>
   <!-- Anything that can go in an HTML video element. -->
   <source src="./media/master-rim/la-marche-des-anges.mp4" type="video/mp4" />
 </SlidevVideo>
@@ -260,6 +260,29 @@ transition: fade-out
 > - **Embauche dès la fin du stage** \o/
 
 </v-clicks>
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+# **Réalisateur en informatique musicale**, 
+# **SCRIME-LaBRI (Bordeaux, 2014-2017)**
+
+
+<div class="absolute left--90 top-385px">
+  <img src="./media/quarre/scrime.png" scale="27%" />
+</div>
+
+<br>
+
+- **Studio de Creation et de Recherche en Informatique et Musiques Expérimentales**
+- Equipe de recherche, liée au **Laboratoire Bordelais de Recherche en Informatique** (LaBRI), et à **l'Université de Bordeaux**
+- Dirigé par **Myriam Desainte-Catherine** (maintenant **Louis Bigo**)
+- Campus Universitaire de **Talence**
+- Axes de recherches : **partitions interactives**, **spatialisation sonore**, *etc.*
+- **Résidences de création**, **concerts**, **évènements**, **enseignement**...
 
 <style> ul li {font-size: 22px} </style>
 
@@ -544,7 +567,7 @@ transition: fade-out
 <br>
 
 - Expérimentations autour du logiciel ***i-score*** et **spatialisation sonore** :
-  - **G. Gagneré** - *L'ombre*, d'Andersen (suivi de lecture)
+  - **G. Gagneré** - *ParOral*
   - **A. Bonardi** - *Pianotronics III*
   - **D. Garnier** - *L'arbre intégral*
   - **P. Cochard** - *quarrè (v1.0)*
@@ -562,13 +585,13 @@ transition: fade-out
 transition: fade-out
 ---
 
-## **Résidence de creation - Pascale Criton, Hugues Genevois**
+## **Georges Gagneré - *ParOral*** (Hémicyclia, 2015-2017)
 
-<br>
-
-<div class="absolute left--5 top-15px">
-  <img src="./media/studios-scrime/hemicyclia-criton.jpg" scale="70%" />
-</div>
+<SlidevVideo autoplay controls scale="75%">
+  <!-- Anything that can go in an HTML video element. -->
+  <source src="./media/ParOralPresentation.mp4" type="video/mp4"/>
+  
+</SlidevVideo>
 
 
 <style> ul li {font-size: 22px} </style>
@@ -585,6 +608,19 @@ transition: fade-out
   <img src="./media/arbre-integral/arbre-integral-ambares-2.png" scale="70%" />
 </div>
 
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Résidence de creation - *L'Arbre intégral*** (Ambarès, 2017)
+
+<SlidevVideo autoplay controls scale="75%">
+  <!-- Anything that can go in an HTML video element. -->
+  <source src="./media/arbre-integral/ai_ambares.mp4" type="video/mp4"/>
+  
+</SlidevVideo>
 
 <style> ul li {font-size: 22px} </style>
 
@@ -599,6 +635,45 @@ transition: fade-out
 <div class="absolute left--5 top-15px">
   <img src="./media/arbre-integral/arbre-integral-ambares-3.png" scale="70%" />
 </div>
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Résidence de creation - *L'Arbre intégral*** (Ambarès, 2017)
+
+<div class="absolute left--5 top--15px">
+  <img src="./media/arbre-integral/score.jpg" scale="65%" />
+</div>
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Résidence de creation - *L'Arbre intégral*** (Ambarès, 2017)
+
+<div class="absolute left--5 top--0px">
+  <img src="./media/arbre-integral/ai-conduite.png" scale="65%" />
+</div>
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Résidence de creation - Pascale Criton, Hugues Genevois**
+
+<br>
+
+<div class="absolute left--5 top-15px">
+  <img src="./media/studios-scrime/hemicyclia-criton.jpg" scale="70%" />
+</div>
+
 
 <style> ul li {font-size: 22px} </style>
 
@@ -754,13 +829,14 @@ transition: fade-out
 
 ## **Video**
 
-<SlidevVideo v-click autoplay controls scale="75%">
+<SlidevVideo timestamp="30" autoplay controls scale="75%">
   <!-- Anything that can go in an HTML video element. -->
   <source src="./media/quarre/montage.mp4" type="video/mp4"/>
   
 </SlidevVideo>
 
 <style> ul li {font-size: 22px} </style>
+
 
 ---
 transition: fade-out
@@ -772,7 +848,6 @@ transition: fade-out
 
 - Développement d'un traducteur "**Max-to-Faust**" en C++
 - Transfert de technologie **Université** - **SAT** - **Industrie** (**GRAME**-******)
-
 
 
 <style> ul li {font-size: 22px} </style>
