@@ -869,6 +869,15 @@ transition: fade-out
 - Transfert de technologie **Université** - **SAT** - **Industrie** (**GRAME**-******)
 
 
+<div class="absolute left--75 top--15px">
+  <img src="./media/max2faust/t7_max.png" scale="40%" />
+</div>
+
+<div class="absolute left-275px top-75px">
+  <img src="./media/max2faust/t7_code.png" scale="50%" />
+</div>
+
+
 <style> ul li {font-size: 22px} </style>
 
 ---
