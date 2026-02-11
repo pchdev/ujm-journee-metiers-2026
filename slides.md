@@ -190,9 +190,9 @@ transition: fade-out
 
 ---
 transition: fade-out
-layout: image-right
-image: media/master-rim/birds.png
-backgroundSize: 75%
+# layout: image-right
+# image: media/master-rim/birds.png
+# backgroundSize: 55%
 ---
 
 ## **Projet Faust : *birds***
@@ -223,6 +223,14 @@ process = hgroup("Birds",
 
 // ...
 ```
+
+<div class="absolute right-5 top-15">
+  <img src="./media/master-rim/birds-qr.png" scale="85%" />
+</div>
+
+<div class="absolute right--30 top-60">
+  <img src="./media/master-rim/birds.png" scale="55%" />
+</div>
 
 
 ---
@@ -1044,5 +1052,18 @@ transition: fade-out
   - **Debugging**
   - **Tooling**
 - Restructuration en IR du backend et du système de génération de code
+
+<style> ul li {font-size: 22px} </style>
+
+
+---
+transition: fade-out
+---
+
+## ***Chaîne de compilation Faust vers Hardware*** 
+
+<div class="absolute left--5 top--25">
+  <img src="./media/syfala/mlir.png" scale="45%" />
+</div>
 
 <style> ul li {font-size: 22px} </style>
