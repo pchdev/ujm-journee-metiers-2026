@@ -867,7 +867,7 @@ transition: fade-out
   <img src="./media/max2faust/t7_max.png" scale="40%" />
 </div>
 
-<div class="absolute left-275px top-75px">
+<div class="absolute left-280px top-83px">
   <img src="./media/max2faust/t7_code.png" scale="50%" />
 </div>
 
@@ -882,13 +882,13 @@ transition: fade-out
 
 <br>
 
-- Equipe dirigée par Tanguy Risset
+- Equipe dirigée par **Tanguy Risset**
 - Collaboration étroite avec **GRAME-CNCM** (Y. Orlarey, S. Letz)
 - **Langages**, **Compilation** (**Faust**)
 - Développement **audio**, **systèmes embarqués** (**FPGA**)
-  - Traitement du signal
-  - Spatialisation (Ambisonie, Wave Field Synthesis)
-  - Interfaces de contrôle
+  - **Traitement du signal**
+  - **Spatialisation** (Ambisonie, Wave Field Synthesis, Acoustique virtuelle)
+  - **Interfaces de contrôle**
 - Arithmétique avancée pour **opérateurs en virgule-flottante**/**virgule-fixe**
 
 <style> ul li {font-size: 22px} </style>
@@ -910,6 +910,8 @@ transition: fade-out
 
 > ### 2. **Recherche, écriture d'articles scientifiques**
 
+- Réalisation d'outils sur-mesure pour expérimentations
+
 <br>
 
 > ### 3. **Enseignement, formation**
@@ -918,21 +920,41 @@ transition: fade-out
 - Cours **Rust**, INSA Télécom - 5ème année
 
 
-<style> ul li {font-size: 22px} </style>
+<style> ul li {font-size: 20px} </style>
 
 ---
 transition: fade-out
+layout: two-cols-header
 ---
 
 ## **Field Programmable Gate Array** (**FPGA**)
 
 <br>
 
-+ Potientiel de parallélisation
-+ Hardware reconfigurable
-+ Très basse latence (*us*)
+::left::
 
-<style> ul li {font-size: 22px} </style>
++ Grille de **blocs logiques interconnectables**
++ Grandes capacités de **parallélisation**
++ Hardware **reconfigurable**, 
+  + Utilisé pour **prototypage de puces**
++ Très basse **latence** (us/ns), calculs à grande vitesse
+
+<br>
+
+- Difficile à "*programmer*" 
+  - Langages **VHDL**, **Verilog**
+  - Interfaces propriétaires (**Vivado**)
+- Peu d'exemples d'implémentation pour l'audio
+
+<div class="absolute right--25 top-3">
+  <img src="./media/syfala/FPGA.png" scale="55%" />
+</div>
+
+<div class="absolute right-7 top-15">
+  <img src="./media/syfala/vivado.png" scale="35%" />
+</div>
+
+<style> ul li {font-size: 20px} </style>
 
 ---
 transition: fade-out
@@ -999,5 +1021,28 @@ transition: fade-out
 <div class="absolute left--5 top-65px">
   <img src="./media/syfala/minimoog-irl.jpg" scale="80%" />
 </div>
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+> ## **FloPoCo**: générateur d'opérateurs optimisés pour FPGA
+
+<br>
+
+- Florent de Dinechin, Anastasia Volkova, Louis Ledoux
+- https://gitlab.com/flopoco/flopoco
+- https://flopoco.org
+- Ecrit en **C++**, génère du code **VHDL**/**Verilog**
+
+<br>
+
+- Maintenance opérationnelle du logiciel 
+  - **Intégration continue** (CI), **autotests**
+  - **Debugging**
+  - **Tooling**
+- Restructuration en IR du backend et du système de génération de code
 
 <style> ul li {font-size: 22px} </style>
