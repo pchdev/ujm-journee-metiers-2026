@@ -136,9 +136,6 @@ transition: fade-out
 
 ---
 transition: fade-out
-# layout: image
-# image: media/master-rim/la-marche-des-anges.png
-# backgroundSize: 75%
 ---
 
 # **Projet *La marche des anges***
@@ -151,8 +148,6 @@ transition: fade-out
   <!-- Anything that can go in an HTML video element. -->
   <source src="./media/master-rim/la-marche-des-anges.mp4" type="video/mp4" />
 </SlidevVideo>
-
-<!-- Faire démo vidéo s'il reste du temps -->
 
 
 ---
@@ -785,12 +780,36 @@ transition: fade-out
 
 ## **Vues serveur/client** de l'installation 
 
+<div class="absolute left--5 top--5px">
+  <img src="./media/quarre/schema1.png" scale="60%" />
+</div>
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Vues serveur/client** de l'installation 
+
 <div class="absolute left--50 top--325px">
   <img src="./media/screens/quarre-new.png" scale="30%" />
 </div>
 
 <div class="absolute left-55 top-95px">
   <img src="./media/screens/screen-quarre-max.png" scale="85%" />
+</div>
+
+<style> ul li {font-size: 22px} </style>
+
+---
+transition: fade-out
+---
+
+## **Vues serveur/client** de l'installation 
+
+<div class="absolute left--5 top-10px">
+  <img src="./media/quarre/schema3.png" scale="60%" />
 </div>
 
 <style> ul li {font-size: 22px} </style>
