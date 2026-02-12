@@ -613,11 +613,9 @@ transition: fade-out
 
 ## **Résidence de creation - *L'Arbre intégral*** (Ambarès, 2017)
 
-<!-- <SlidevVideo autoplay controls scale="75%">
-  <!-- Anything that can go in an HTML video element. -->
-  <!-- <source src="./media/arbre-integral/ai_ambares.mp4" type="video/mp4"/> -->
-  
-<!-- </SlidevVideo> -->
+<SlidevVideo autoplay controls scale="75%">
+  <source src="https://wpn214.com/media/ai_ambares.mp4" type="video/mp4"/>
+</SlidevVideo>
 
 <style> ul li {font-size: 22px} </style>
 
