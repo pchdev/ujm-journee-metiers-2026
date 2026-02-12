@@ -146,7 +146,7 @@ transition: fade-out
 
 <SlidevVideo autoplay controls>
   <!-- Anything that can go in an HTML video element. -->
-  <source src="./media/master-rim/la-marche-des-anges.mp4" type="video/mp4" />
+  <source src="https://wpn214.com/media/la-marche-des-anges.mp4" type="video/mp4" />
 </SlidevVideo>
 
 
@@ -586,7 +586,7 @@ transition: fade-out
 
 <SlidevVideo autoplay controls scale="75%">
   <!-- Anything that can go in an HTML video element. -->
-  <source src="./media/ParOralPresentation.mp4" type="video/mp4"/>
+  <source src="https://media.didascalie.net/rech/15paroral/ParOralPresentation.mp4" type="video/mp4"/>
   
 </SlidevVideo>
 
@@ -852,7 +852,7 @@ transition: fade-out
 
 <SlidevVideo timestamp="30" autoplay controls scale="75%">
   <!-- Anything that can go in an HTML video element. -->
-  <source src="./media/quarre/montage.mp4" type="video/mp4"/>
+  <source src="https://wpn214.com/media/montage.mp4" type="video/mp4"/>
   
 </SlidevVideo>
 
